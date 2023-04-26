@@ -1,0 +1,8 @@
+.container{
+    max-width: 100vw;
+    max-height: 100vh;
+    box-sizing: border-box;
+    background: black;
+    padding: 3rem;
+    overflow: none;
+}

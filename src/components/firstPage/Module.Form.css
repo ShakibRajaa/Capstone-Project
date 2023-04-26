@@ -1,0 +1,89 @@
+.formContainer{
+    width:50vw;
+    max-height: 100vh;
+    padding: 3rem;
+    background: #1E1E1E;
+    box-sizing: border-box;
+    
+}
+.formHeading{
+    font-family: 'single day',cursive;
+    color: #72DB73;
+    font-size: 3rem;
+    letter-spacing: 0.025em;
+    margin: 0;
+    text-align: center;
+}
+form{
+    width:30vw;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+form input{
+    width: 30vw;
+    height: 2.3rem;
+    color: #ffffff;
+    background: #363434;
+    border:1px solid #1E1E1E;
+    padding-left:1rem ;
+    margin-top: 1rem;
+    box-sizing: border-box;
+
+}
+form span{
+    text-align: left;
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin: 0;
+
+}
+.checkedButton{
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.045em;
+    font-size: 0.9rem;
+}
+.checkedButton input{
+    width:1rem;
+    height: 1rem;
+    color: #ffffff;
+    align-content: end;
+    margin-right: 0.5rem;
+}
+.checkedButton span{
+    font-weight: 400;
+    font-family: monospace;
+    letter-spacing: 0;
+}
+form button{
+    width: 30vw;
+    height: 2.3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 25px;
+    background: #72DB73;
+    border:1px solid #1E1E1E;
+    margin-top: 1rem;
+
+
+}
+.comment{
+    width:30vw;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.04rem;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+.comment span{
+    color:#72DB73;
+    font-size: 1rem;
+}
+span{
+    margin: none;
+    padding: none;
+}
