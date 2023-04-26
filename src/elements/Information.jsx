@@ -7,7 +7,7 @@ const Information = () => {
     let choiceString =localStorage.getItem('choices');
     let choices= JSON.parse(choiceString);
     return(
-        <div className="container" style={{height:"30vh",width:"30vw",background:"#5746EA",color:"#ffffff" ,display:"flex",borderRadius:"12px",padding:"2rem",boxSizing:"border-box"}}>
+        <div className="container" style={{height:"32vh",width:"30vw",background:"#5746EA",color:"#ffffff" ,display:"flex",borderRadius:"12px",padding:"2rem",boxSizing:"border-box"}}>
             <div className="image">
                 <img src={bg} alt={bg} style={{height:"11rem",width:"5rem",marginRight:"2rem"}} />
             </div>
