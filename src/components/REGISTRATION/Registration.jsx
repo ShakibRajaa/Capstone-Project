@@ -2,7 +2,7 @@ import React from "react";
 import Banner from "./Banner";
 import Form from "./Form";
 
-const Page1 = () =>{
+const Registration = () =>{
     return(
         <div style={{maxHeight:"100vh",maxWidth:"100vw",display:"flex",boxSizing:"border-box"}}>
             <Banner/>
@@ -11,4 +11,4 @@ const Page1 = () =>{
     )
 }
 
-export default Page1;
+export default Registration;

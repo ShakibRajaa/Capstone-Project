@@ -1,10 +1,10 @@
 import React from "react";
-import Information from "../../elements/Information";
-import Weather from "../../elements/Weather";
-import styles from"./Page4.module.css";
-import Notes from "../../elements/Notes";
-import Timer from "../../elements/Timer";
-import News from "../../elements/News";
+import Information from "../../HomePageComponents/Information";
+import Weather from "../../HomePageComponents/Weather";
+import styles from"./HomeWithTimer.module.css";
+import Notes from "../../HomePageComponents/Notes";
+import Timer from "../../HomePageComponents/Timer";
+import News from "../../HomePageComponents/News";
 
 
 const Page4 = () =>{

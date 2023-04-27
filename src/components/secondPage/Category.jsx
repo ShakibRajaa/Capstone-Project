@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import styles from "./Page2.module.css";
+import styles from "./Category.module.css";
 
-const Page2 = (props) =>{
+const Category = (props) =>{
     const [choices,setChoice]=useState([]);
     const [selected,setSelected] = useState(false);
     const handleChoice = (elem) =>{
@@ -64,4 +64,4 @@ const Page2 = (props) =>{
         </div>
     )
 }
-export default Page2;
+export default Category;
