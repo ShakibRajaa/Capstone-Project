@@ -24,7 +24,7 @@ const Page3 = ()=>{
             var minutes = date.getMinutes();
             var ampm = hours >= 12 ? 'pm' : 'am';
             hours = hours % 12;
-            hours = hours ? hours : 12; // the hour '0' should be '12'
+            hours = hours ? hours : 12;
             minutes = minutes < 10 ? '0'+minutes : minutes;
             var strTime = hours + ':' + minutes + ' ' + ampm;
             setTime(strTime)
@@ -32,7 +32,7 @@ const Page3 = ()=>{
         useEffect(()=>{
             const today = new Date();
             const yyyy = today.getFullYear();
-            let mm = today.getMonth() + 1; // Months start at 0!
+            let mm = today.getMonth() + 1;
             let dd = today.getDate();
     
             if (dd < 10) dd = '0' + dd;

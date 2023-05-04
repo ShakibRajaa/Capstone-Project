@@ -5,17 +5,19 @@ import Category from './components/secondPage/Category';
 import Form from './components/REGISTRATION/Form';
 import Banner from './components/REGISTRATION/Banner';
 import cardData from './components/secondPage/cardData';
-import Page3 from './components/HOME/Home';
-import Page4 from './components/HOMETIMER/HomeWithTimer';
+import Home from './components/HOME/Home';
+import HomeTimer from './components/HOMETIMER/HomeWithTimer';
+import Movie from './components/MOVIE/Movie';
 
 function App() {
   return (
     <BrowserRouter>
         <Routes>
           <Route path='/' element={<div className='First'><Banner/><Form/></div>}/>
-          <Route path='page2' element={<Category details={cardData}/>}/>
-          <Route path='page3' element={<Page3/>}/>
-          <Route path='page4' element={<Page4/>}/>
+          <Route path='category' element={<Category details={cardData}/>}/>
+          <Route path='home' element={<Home/>}/>
+          <Route path='hometimer' element={<HomeTimer/>}/>
+          <Route path='movie' element={<Movie/>}/>
         </Routes>
     </BrowserRouter>
   );
